@@ -5,7 +5,7 @@ import speech recognition as sr
 
 app = Flask(__name__)
 
-@app.route("/", methods=[]"GET")
+@app.route("/", methods=["GET"])
 
 def index():
   retuen render_template('index.html')
